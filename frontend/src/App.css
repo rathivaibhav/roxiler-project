@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #f7f7f7;
+    color: #222;
+}
+a { color: #0366d6; text-decoration: none; }
+nav { background:white; border-bottom:1px solid #eee; }
+.container { max-width:1000px; margin:20px auto; padding:10px; }

@@ -1,0 +1,24 @@
+/* Light Blue Theme overrides */
+:root {
+    --blue-light: #dbeafe;   /* Tailwind blue-100 */
+    --blue-mid: #60a5fa;     /* Tailwind blue-400 */
+    --blue-dark: #1e3a8a;    /* Tailwind blue-900 */
+}
+
+body {
+    background: var(--blue-light);
+}
+
+header {
+    background: #bfdbfe; /* blue-200 */
+    color: #1e3a8a;
+}
+
+.store-card {
+    border: 1px solid #e5efff;
+    transition: 0.3s box-shadow;
+}
+
+.store-card:hover {
+    box-shadow: 0 6px 18px rgba(30, 58, 138, 0.2);
+}
